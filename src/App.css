@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
 .App {
   text-align: center;
+  background-image: url("../public/Fredzell_pine_forest_at_night_with_abandoned_mine_medieval_fant_0fbc97ed-00c0-4bf0-a73c-1a709843522c.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  color: gold;
+  font-family: 'MedievalSharp', cursive;
+}
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+  background-color: rgba(0, 0, 0, 0.189);
+  backdrop-filter: blur(15px);
+  padding: 25px 0px;
 }
